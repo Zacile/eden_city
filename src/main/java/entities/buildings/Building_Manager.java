@@ -4,16 +4,11 @@ import entities.city_stats.Stats;
 
 public class Building_Manager {
 
-    private test_building test;
-    private Stats stats;
-
-   public Building_Manager(Stats stats){
-       this.stats = stats;
-   }
+    private static test_building test;
 
    // adding buildings
 
-    public void addTestBuilding(Building buildings[], int index){
-
+    public static test_building addTestBuilding(Stats stats, int x, int y){
+        return new test_building(stats, x, y);
     }
 }

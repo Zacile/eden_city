@@ -50,7 +50,7 @@ public class Game implements Runnable {
 
         g = display.getCanvas().getGraphics();
         //Clear Screen
-        g.clearRect(0,0,width,height);
+        g.clearRect(0,100,width,height);
         //Draw here
         if (State.getState()!=null)
             State.getState().render(g);

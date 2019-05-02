@@ -8,8 +8,8 @@ import java.awt.*;
 public class test_building extends Building{
 
 
-    public test_building(Stats stats) {
-        super(stats);
+    public test_building(Stats stats, int x, int y) {
+        super(stats, x, y);
         init();
 
     }
@@ -24,7 +24,7 @@ public class test_building extends Building{
 
     public void render(Graphics g) {
         g.setColor(Color.BLUE);
-        g.fillRect(20,20,10,10);
+        g.fillRect(x,y,10,10);
     }
 
     public void add_Stats(Stats stats) {

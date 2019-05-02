@@ -38,7 +38,7 @@ public class Population {
         calc_pop(init_pop, pgr, pmr, time);
 
         counter+=year_factor;
-        System.out.println(population);
+        //System.out.println(population);
         if(counter >=1){
             time ++;
             counter = 0;

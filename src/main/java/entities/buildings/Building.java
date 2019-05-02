@@ -10,13 +10,15 @@ public abstract class Building {
 
    /* private BufferedImage background;
     private Assets textures;*/
-
+    public int x,y;
 
     private Stats stats;
 
-    public  Building(Stats stats) {
+    public  Building(Stats stats, int x, int y) {
         // this.textures = textures;
         this.stats = stats;
+        this.x = x;
+        this.y = y;
 
     }
 
