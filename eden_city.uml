@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="1186.0">com</node>
+    <node x="632.0" y="1112.0">netscape</node>
+    <node x="34.80303030303031" y="0.0">gfx.SpriteSheet</node>
+    <node x="0.0" y="359.0">gfx.Display</node>
+    <node x="221.08333333333331" y="403.5">base.States.GameState</node>
+    <node x="133.67424242424244" y="147.0">gfx.Assets</node>
+    <node x="718.0" y="1186.0">entities.Building</node>
+    <node x="0.0" y="1112.0">toolbarButtonGraphics</node>
+    <node x="293.0" y="1186.0">sun</node>
+    <node x="114.17803030303031" y="1016.0">base.Launcher</node>
+    <node x="244.0" y="1112.0">groovyjarjarasm</node>
+    <node x="148.0" y="1186.0">java</node>
+    <node x="1126.0" y="1112.0">javax</node>
+    <node x="347.67424242424244" y="158.0">base.States.State</node>
+    <node x="803.0" y="1112.0">images</node>
+    <node x="436.0" y="1186.0">org</node>
+    <node x="578.0" y="1186.0">jdk</node>
+    <node x="453.0" y="1112.0">META-INF</node>
+    <node x="855.0" y="1186.0">entities.Entity</node>
+    <node x="965.0" y="1112.0">groovy</node>
+    <node x="310.8030303030303" y="23.0">gfx.ImageLoader</node>
+    <node x="881.8030303030303" y="13.451171875">groovyjarjarcommonscli</node>
+    <node x="107.67803030303031" y="604.0">base.Game</node>
+    <node x="640.8030303030303" y="15.867838541666664">groovyjarjarantlr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="gfx.Assets" target="gfx.SpriteSheet">
+      <point x="0.0" y="-81.0" />
+      <point x="230.67424242424244" y="122.0" />
+      <point x="226.8030303030303" y="122.0" />
+      <point x="64.0" y="48.5" />
+    </edge>
+    <edge source="base.Launcher" target="base.Game">
+      <point x="-42.25" y="-25.5" />
+      <point x="156.4280303030303" y="991.0" />
+      <point x="153.1780303030303" y="991.0" />
+      <point x="-45.5" y="181.0" />
+    </edge>
+    <edge source="base.Game" target="gfx.Display">
+      <point x="-78.0" y="-181.0" />
+      <point x="120.67803030303031" y="584.0" />
+      <point x="31.5" y="584.0" />
+      <point x="-63.0" y="92.5" />
+    </edge>
+    <edge source="base.Game" target="base.States.GameState">
+      <point x="26.0" y="-181.0" />
+      <point x="224.6780303030303" y="564.0" />
+      <point x="312.5833333333333" y="564.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="gfx.Assets" target="gfx.ImageLoader">
+      <point x="64.66666666666669" y="-81.0" />
+      <point x="295.3409090909091" y="122.0" />
+      <point x="433.3030303030303" y="122.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="base.Game" target="gfx.Assets">
+      <point x="0.0" y="-181.0" />
+      <point x="199.5" y="334.0" />
+      <point x="182.17424242424244" y="334.0" />
+      <point x="-48.5" y="81.0" />
+    </edge>
+    <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+      <point x="0.0" y="14.5" />
+      <point x="723.8030303030303" y="74.86783854166666" />
+      <point x="610.8030303030303" y="74.86783854166666" />
+      <point x="610.8030303030303" y="30.367838541666664" />
+      <point x="-83.0" y="-0.0" />
+    </edge>
+    <edge source="base.States.GameState" target="base.States.State">
+      <point x="45.75" y="-48.0" />
+      <point x="358.3333333333333" y="334.0" />
+      <point x="378.17424242424244" y="334.0" />
+      <point x="-61.0" y="70.0" />
+    </edge>
+    <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+      <point x="52.0" y="14.5" />
+      <point x="1037.8030303030303" y="72.451171875" />
+      <point x="851.8030303030303" y="72.451171875" />
+      <point x="851.8030303030303" y="20.701171875" />
+      <point x="-104.0" y="-7.25" />
+    </edge>
+    <edge source="base.States.GameState" target="gfx.Assets">
+      <point x="-45.75" y="-48.0" />
+      <point x="266.8333333333333" y="334.0" />
+      <point x="279.17424242424244" y="334.0" />
+      <point x="48.5" y="81.0" />
+    </edge>
+    <edge source="base.Game" target="base.States.State">
+      <point x="52.0" y="-181.0" />
+      <point x="250.6780303030303" y="574.0" />
+      <point x="446.0909090909091" y="574.0" />
+      <point x="446.0909090909091" y="334.0" />
+      <point x="439.17424242424244" y="334.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3510204081632653" x="573.0" y="622.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
